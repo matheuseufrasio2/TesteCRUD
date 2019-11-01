@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\AppTeste\\AppTeste.csproj": {}
+    "C:\\git\\ajuda-comunidade\\TesteCRUD\\AppTeste.csproj": {}
   },
   "projects": {
-    "C:\\C#\\AppTeste\\AppTeste.csproj": {
+    "C:\\git\\ajuda-comunidade\\TesteCRUD\\AppTeste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\AppTeste\\AppTeste.csproj",
+        "projectUniqueName": "C:\\git\\ajuda-comunidade\\TesteCRUD\\AppTeste.csproj",
         "projectName": "AppTeste",
-        "projectPath": "C:\\C#\\AppTeste\\AppTeste.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\AppTeste\\obj\\",
+        "projectPath": "C:\\git\\ajuda-comunidade\\TesteCRUD\\AppTeste.csproj",
+        "packagesPath": "C:\\Users\\luskr\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\ajuda-comunidade\\TesteCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luskr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,24 +52,30 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
